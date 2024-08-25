@@ -7,6 +7,7 @@ MIN_BET = 1
 ROWS = 3
 COLS = 3
 
+
 symbol_count = {
     "A" : 2,
     "B" : 4,
