@@ -1,4 +1,4 @@
-def deposite():
+def deposit():
     while True:
         amount = input("What would you like to deposit? $")
         if amount.isdigit():
@@ -11,3 +11,8 @@ def deposite():
             print("Please enter a number.")
     
     return amount
+
+def main():
+    balance = deposit()
+
+main
